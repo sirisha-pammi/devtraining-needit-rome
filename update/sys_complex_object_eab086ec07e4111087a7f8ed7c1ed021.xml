@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD2ab086ec5ce41110cd1d93782b408021</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>6ead8e780f603200cd674f8ce1050ed1</scope_name>
+        <serialized_content>{"FlowDesigner:FD2ab086ec5ce41110cd1d93782b408021":{"$COCollectionField":["Date"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD2ab086ec5ce41110cd1d93782b408021.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"date\",\"mandatory\":\"false\",\"child_name\":\"newdate\",\"uiUniqueId\":\"40f24f9a-b5bc-430e-a7c8-05e8ebf068d7\",\"uiTypeLabel\":\"Array.Datetime\",\"co_type_name\":\"FD2ab086ec5ce41110cd1d93782b408021\",\"child_label\":\"newdate\",\"child_type_label\":\"Date/Time\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":null,\"uiType\":\"array.datetime\",\"child_defaultValue\":\"\",\"child_type\":\"glide_date_time\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"3dee4a9a-cfce-4e11-a7a4-fa186b14f658\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-04 11:05:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>eab086ec07e4111087a7f8ed7c1ed021</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD2ab086ec5ce41110cd1d93782b408021</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_complex_object_eab086ec07e4111087a7f8ed7c1ed021</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-04 11:05:00</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>
