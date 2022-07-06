@@ -36,12 +36,13 @@
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p><span style="color: #000080; font-family: 'comic sans ms', sans-serif;"><strong>Dear ${assigned_to.first_name},<br /></strong></span></p>
-<p><span style="color: #000080; font-family: 'comic sans ms', sans-serif;"><strong>An overdue NeedIt Task is assigned to you:</strong><strong><br /></strong></span></p>
-<p><span style="color: #000080; font-family: 'comic sans ms', sans-serif;"><strong>Number: ${number}</strong></span></p>
-<p><span style="color: #000080; font-family: 'comic sans ms', sans-serif;"><strong>Short description: ${short_description}<br /></strong></span></p>
-<p><span style="color: #000080; font-family: 'comic sans ms', sans-serif;"><strong>Please complete this task as soon as possible.</strong></span></p>
-<p><span style="color: #000080; font-family: 'comic sans ms', sans-serif;"><strong>Click here to view the NeedIt Task record: ${URI_REF} </strong></span></p>]]></message_html>
+        <message_html><![CDATA[<p><span style="color: #000080; font-family: 'comic sans ms', sans-serif;">Dear ${assigned_to.first_name},<br /></span></p>
+<p><span style="color: #000080; font-family: 'comic sans ms', sans-serif;">An overdue NeedIt Task is assigned to you:<br /></span></p>
+<p><span style="color: #000080; font-family: 'comic sans ms', sans-serif;">Number: ${number}</span></p>
+<p><span style="color: #000080; font-family: 'comic sans ms', sans-serif;">Short description: ${short_description}<br /></span></p>
+<p><span style="color: #000080; font-family: 'comic sans ms', sans-serif;">Please complete this task as soon as possible.</span></p>
+<pre><code><span style="color: #000080;">${mail_script:CountOverdueNeedItTasksAssignedTo}<br /></span></code><code>${mailto:mailto.closeneedittask}</code><code><span style="color: #000080;"><br /></span></code></pre>
+<p><span style="color: #000080; font-family: 'comic sans ms', sans-serif;">Click here to view the NeedIt Task record: ${URI_REF} </span></p>]]></message_html>
         <message_list/>
         <message_text/>
         <name>Overdue NeedIt Task</name>
@@ -50,7 +51,7 @@
         <push_message_only>false</push_message_only>
         <recipient_fields>assigned_to</recipient_fields>
         <recipient_groups/>
-        <recipient_users>sirishareddypammi@gmail.com</recipient_users>
+        <recipient_users/>
         <reply_to/>
         <send_self>true</send_self>
         <sms_alternate/>
@@ -63,7 +64,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>244d07620718511087a7f8ed7c1ed0e3</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Overdue NeedIt Task</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
@@ -71,7 +72,7 @@
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sysevent_email_action_244d07620718511087a7f8ed7c1ed0e3</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-06-28 11:40:19</sys_updated_on>
+        <sys_updated_on>2022-07-06 14:13:05</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>
